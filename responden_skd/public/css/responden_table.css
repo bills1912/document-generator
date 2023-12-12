@@ -1,0 +1,262 @@
+.chips-not-done {
+    background-color: #ffcccb;
+    font-weight: bold;
+    color: red;
+    border-radius: 25px;
+    padding: 3px 10px;
+}
+
+.chips-done {
+    background-color: #cce7cd;
+    font-weight: bold;
+    color: green;
+    border-radius: 25px;
+    padding: 3px 10px;
+}
+
+.chips-wait {
+    background-color: #fff192;
+    font-weight: bold;
+    color: #e08600;
+    border-radius: 25px;
+    padding: 3px 10px;
+}
+
+.chips-all {
+    background-color: #50a79d;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 3px 10px;
+}
+
+.chips-sosduk {
+    background-color: #bfe1f6;
+    font-weight: bold;
+    color: #0a53a8;
+    border-radius: 25px;
+    padding: 3px 10px;
+}
+
+.chips-ekdagang {
+    background-color: #ffc8aa;
+    font-weight: bold;
+    color: #753800;
+    border-radius: 25px;
+    padding: 3px 10px;
+}
+
+.chips-tanitambang {
+    background-color: #d4edbc;
+    font-weight: bold;
+    color: #11734b;
+    border-radius: 25px;
+    padding: 3px 10px;
+}
+
+.chips-lainnya {
+    background-color: #c6dbe1;
+    font-weight: bold;
+    color: #215a6c;
+    border-radius: 25px;
+    padding: 3px 10px;
+}
+
+.chips-nasional {
+    background-color: #ffcfc9;
+    font-weight: bold;
+    color: #b10202;
+    border-radius: 25px;
+    padding: 3px 10px;
+}
+
+.chips-provinsi {
+    background-color: #ffe5a0;
+    font-weight: bold;
+    color: #473821;
+    border-radius: 25px;
+    padding: 3px 10px;
+}
+
+.chips-kako {
+    background-color: #d0fff5;
+    font-weight: bold;
+    color: #36585a;
+    border-radius: 25px;
+    padding: 3px 10px;
+}
+
+.chips-kecamatan {
+    background-color: #ead4ff;
+    font-weight: bold;
+    color: #7b67a5;
+    border-radius: 25px;
+    padding: 3px 10px;
+}
+
+.chips-desa {
+    background-color: #c6dbe1;
+    font-weight: bold;
+    color: #215a6c;
+    border-radius: 25px;
+    padding: 3px 10px;
+}
+
+.chips-dalam-lemari {
+    background-color: #bfe1f6;
+    font-weight: bold;
+    color: #0a53a8;
+    border-radius: 25px;
+    padding: 3px 10px;
+}
+
+.chips-luar-lemari {
+    background-color: #ffe5a0;
+    font-weight: bold;
+    color: #473821;
+    border-radius: 25px;
+    padding: 3px 10px;
+}
+
+.chips-r1 {
+    background-color: #a7f3f3;
+    font-weight: bold;
+    color: #458383;
+    border-radius: 25px;
+    padding: 3px 10px;
+}
+
+.chips-r2 {
+    background-color: #ffcfc9;
+    font-weight: bold;
+    color: #b10202;
+    border-radius: 25px;
+    padding: 3px 10px;
+}
+
+.chips-r3 {
+    background-color: #ffc8aa;
+    font-weight: bold;
+    color: #753800;
+    border-radius: 25px;
+    padding: 3px 10px;
+}
+
+.chips-r4 {
+    background-color: #ffe5a0;
+    font-weight: bold;
+    color: #473821;
+    border-radius: 25px;
+    padding: 3px 10px;
+}
+
+.chips-r5 {
+    background-color: #d4edbc;
+    font-weight: bold;
+    color: #11734b;
+    border-radius: 25px;
+    padding: 3px 10px;
+}
+
+.chips-r6 {
+    background-color: #bfe1f6;
+    font-weight: bold;
+    color: #0a53a8;
+    border-radius: 25px;
+    padding: 3px 10px;
+}
+
+.chips-r7 {
+    background-color: #c6dbe1;
+    font-weight: bold;
+    color: #215a6c;
+    border-radius: 25px;
+    padding: 3px 10px;
+}
+
+.chips-r8 {
+    background-color: #e6cff2;
+    font-weight: bold;
+    color: #5a3286;
+    border-radius: 25px;
+    padding: 3px 10px;
+}
+
+.chips-username {
+    top: 0;
+    left: 0;
+    border-radius: 25px;
+    padding: 3px 10px;
+    background-repeat: no-repeat;
+    /* transition: 0.35s ease-in-out; */
+}
+
+.chips-username:hover {
+    transition: 0.35s ease;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.logo-bps {
+    height: 20px;
+    width: 23px;
+    display: inline;
+}
+
+.simane-logo {
+    height: 30px;
+    width: 30px;
+    display: inline;
+}
+
+.simane-logo-login {
+    height: 100px;
+    width: 100px;
+    display: inline;
+}
+
+#datatable-buku {
+    td,
+    th {
+        vertical-align: middle;
+    }
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(25%);
+    transition: all 1s;
+}
+
+@media (prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+section .project {
+    min-height: 68vh;
+}
+
+span.select2-container {
+    z-index: 10050;
+}
+
+.select2-container--default
+    .select2-selection--multiple
+    .select2-selection__choice {
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: inherit;
+    height: 35px !important;
+}
+
+.iti {
+    width: 100%;
+}
